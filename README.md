@@ -56,7 +56,7 @@ Customer churn is a critical metric for subscription-based businesses. This mach
 ---
 
 ## 📂 Project Structure
-
+```
 customer-churn/
 │
 ├── templates/ # HTML templates
@@ -69,7 +69,7 @@ customer-churn/
 ├── churn_model.pkl # Saved ML model
 ├── requirements.txt
 └── README.md
-
+```
 ---
 
 ## 🚀 How to Run Locally
