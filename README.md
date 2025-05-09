@@ -76,7 +76,7 @@ customer-churn/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/customer-churn-prediction.git
+git clone https://github.com/Mazid2003/Customer-churn-prediction-using-Machine-Learning.git
 cd customer-churn-prediction
 2. Install dependencies
 
