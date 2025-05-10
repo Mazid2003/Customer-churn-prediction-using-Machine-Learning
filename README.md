@@ -75,18 +75,23 @@ customer-churn/
 ## 🚀 How to Run Locally
 
 ### 1. Clone the repository
-```
+
 git clone https://github.com/Mazid2003/Customer-churn-prediction-using-Machine-Learning.git
+
 cd customer-churn-prediction
+
 2. Install dependencies
 
 pip install -r requirements.txt
+
 3. Start the Flask server
 
 python app.py
+
 Then visit http://localhost:5000 in your browser.
-```
-💡 Example Inputs
+
+**💡 Example Inputs**
+
 Feature	Example Value
 Gender	Female
 Tenure	5
