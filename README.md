@@ -75,7 +75,7 @@ customer-churn/
 ## 🚀 How to Run Locally
 
 ### 1. Clone the repository
-```bash
+```
 git clone https://github.com/Mazid2003/Customer-churn-prediction-using-Machine-Learning.git
 cd customer-churn-prediction
 2. Install dependencies
@@ -85,7 +85,7 @@ pip install -r requirements.txt
 
 python app.py
 Then visit http://localhost:5000 in your browser.
-
+```
 💡 Example Inputs
 Feature	Example Value
 Gender	Female
