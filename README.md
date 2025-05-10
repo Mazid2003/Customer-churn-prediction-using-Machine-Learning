@@ -92,16 +92,17 @@ Then visit http://localhost:5000 in your browser.
 
 **💡 Example Inputs**
 
-Feature	Example Value
-Gender	Female
-Tenure	5
-Monthly Charges	70.5
-Contract Type	Month-to-month
-Internet Service	Fiber optic
-Senior Citizen	No
-Dependents	Yes
+Feature	Example Value<br>
+Gender	Female<br>
+Tenure	5<br>
+Monthly Charges	70.5<br>
+Contract Type	Month-to-month<br>
+Internet Service	Fiber optic<br>
+Senior Citizen	No<br>
+Dependents	Yes<br>
 
 📊 Results & Insights
+
 Random Forest performed best with ~85% accuracy
 
 Most important features: Contract, Tenure, Monthly Charges
@@ -109,8 +110,11 @@ Most important features: Contract, Tenure, Monthly Charges
 Helped derive actionable business insights for customer retention
 
 👨‍💻 Author
+
 Mohammad Mazid
+
 📧 mazidmd750@gmail.com
 
 📜 License
+
 This project is open-source and available under the MIT License.
