@@ -111,9 +111,11 @@ Helped derive actionable business insights for customer retention
 
 👨‍💻 Author
 
-Mohammad Mazid
+Created by Mohammad Mazid
 
-📧 mazidmd750@gmail.com
+Email:mazidmd750@gmail.com
+
+Linkedin: https://www.linkedin.com/in/mohammadmazid
 
 📜 License
 
