@@ -101,7 +101,7 @@ Internet Service	Fiber optic<br>
 Senior Citizen	No<br>
 Dependents	Yes<br>
 
-📊 Results & Insights
+**📊 Results & Insights**
 
 Random Forest performed best with ~85% accuracy
 
@@ -109,14 +109,20 @@ Most important features: Contract, Tenure, Monthly Charges
 
 Helped derive actionable business insights for customer retention
 
-👨‍💻 Author
+**🤝 Contributing**
+
+Contributions, suggestions, and improvements are welcome!
+
+Feel free to fork this project and submit a PR 🚀
+
+**📜 License**
+
+This project is open-source and available under the MIT License.
+
+**👨‍💻 Author**
 
 Created by Mohammad Mazid
 
 Email:mazidmd750@gmail.com
 
 Linkedin: https://www.linkedin.com/in/mohammadmazid
-
-📜 License
-
-This project is open-source and available under the MIT License.
