@@ -101,6 +101,11 @@ Internet Service	Fiber optic<br>
 Senior Citizen	No<br>
 Dependents	Yes<br>
 
+**Screenshots**
+
+![screenshot_2025-05-09_09-58-32](https://github.com/user-attachments/assets/e981af7b-b42d-4b6b-a456-45e6c4ae5839)
+
+
 **📊 Results & Insights**
 
 Random Forest performed best with ~85% accuracy
