@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customer Churn Predictor</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #c31432, #240b36);
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+            width: 90%;
+            max-width: 600px;
+            animation: fadeIn 1s ease-out;
+        }
+
+        h2 {
+            text-align: center;
+            color: #fff;
+            margin-bottom: 25px;
+            animation: bounceIn 1s ease-in-out;
+        }
+
+        form {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .field-group {
+            display: flex;
+            flex-direction: column;
+        }
+
+        input, select {
+            padding: 10px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: transform 0.2s ease, background-color 0.3s ease;
+        }
+
+        input:hover, select:hover {
+            transform: scale(1.03);
+            background-color: #f1f1f1;
+            color: #000;
+        }
+
+        .full-width {
+            grid-column: span 2;
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        input[type="submit"] {
+            background-color: #ff416c;
+            color: white;
+            cursor: pointer;
+            font-weight: bold;
+            padding: 12px 30px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #ff4b2b;
+            transform: scale(1.05);
+        }
+
+        h3 {
+            text-align: center;
+            color: #fff;
+            animation: fadeIn 1s ease-in-out;
+            margin-top: 20px;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes bounceIn {
+            0% { transform: scale(0.95); opacity: 0.5; }
+            60% { transform: scale(1.05); opacity: 1; }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>🔍 Predict Customer Churn</h2>
+        <form method="POST">
+            <div class="field-group">
+                <label>Credit Score:</label>
+                <input type="number" name="CreditScore" required>
+            </div>
+            <div class="field-group">
+                <label>Age:</label>
+                <input type="number" name="Age" required>
+            </div>
+            <div class="field-group">
+                <label>Tenure:</label>
+                <input type="number" name="Tenure" required>
+            </div>
+            <div class="field-group">
+                <label>Balance:</label>
+                <input type="number" name="Balance" required>
+            </div>
+            <div class="field-group">
+                <label>Num Of Products:</label>
+                <input type="number" name="NumOfProducts" required>
+            </div>
+            <div class="field-group">
+                <label>Has Credit Card (1/0):</label>
+                <input type="number" name="HasCrCard" required>
+            </div>
+            <div class="field-group">
+                <label>Is Active Member (1/0):</label>
+                <input type="number" name="IsActiveMember" required>
+            </div>
+            <div class="field-group">
+                <label>Estimated Salary:</label>
+                <input type="number" name="EstimatedSalary" required>
+            </div>
+            <div class="field-group">
+                <label>Gender:</label>
+                <select name="Gender">
+                    <option value="Male">Eg: Male</option>
+                    <option value="Female">Female</option>
+                </select>
+            </div>
+            <div class="field-group">
+                <label>Geography:</label>
+                <select name="Geography">
+                    <option value="France">Eg: France</option>
+                    <option value="Germany">Germany</option>
+                    <option value="Spain">Spain</option>
+                </select>
+            </div>
+
+            <div class="full-width">
+                <input type="submit" value="Predict">
+            </div>
+        </form>
+        {% if result %}
+            <h3>🧠 Result: {{ result }}</h3>
+        {% endif %}
+    </div>
+</body>
+</html>
